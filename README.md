@@ -10,18 +10,18 @@ This project implements a **Mini Agentic Pipeline**, an AI system capable of aut
 
 The system demonstrates **agentic behavior**, deciding whether to rely on the KB or a tool based on the query.
 
+---
+
 ## 🎥 Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/rXxNusDsDOw/0.jpg)](https://youtu.be/rXxNusDsDOw)
-
 
 ---
 
 ## 🏗️ Architecture
 
-**Pipeline Flow (ASCII View):**
+**Pipeline Flow (Mermaid Diagram):**
 
-```markdown
 ```mermaid
 flowchart TD
     A([🧑 User Query]) --> B([⚡ Controller])
@@ -33,6 +33,7 @@ flowchart TD
     
     F --> G([✅ Final Answer])
     E --> G
+
 ```
 ## 🔎 Components Explained
 
@@ -45,6 +46,7 @@ flowchart TD
 ---
 
 ## 📂 Folder Structure
+```
 my-agentic-rag/
 ├─ kb_docs/ # Knowledge base documents
 ├─ data/ # CSV files (prices.csv)
@@ -65,6 +67,7 @@ my-agentic-rag/
 ├─ .env # Gemini API key and environment variables
 ├─ main.py # Interactive agent
 └─ README.md
+```
 
 
 ---
@@ -150,4 +153,23 @@ Gemini model selection may vary based on API availability.
 
 Ambiguous queries may require user clarification.
 
+### 🚀 Why This Project Matters
+
+✅ Demonstrates agentic behavior with reasoning + tool execution.
+
+✅ Shows full pipeline orchestration with logs for evaluation.
+
+✅ Clear modular structure for scalability and extension.
+
+✅ Combines retrieval, LLM reasoning, and tool integration in a single project.
+
+
+✅ Supports interactive and automated testing, suitable for assessment.
+
+### 👨‍💻 Author
+
+Anandhu P
+AI/ML Engineer | Data Science Enthusiast
+Portfolio: https://github.com/Anandhu-p-tec
+Email: anandhupadmanabhank@gmail.com
 
