@@ -1,0 +1,7 @@
+google-generativeai
+python-dotenv
+langchain
+faiss-cpu
+pandas
+sentence-transformers
+langchain-community>=0.0.202

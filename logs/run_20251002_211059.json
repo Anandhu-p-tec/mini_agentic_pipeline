@@ -1,0 +1,42 @@
+[
+    {
+        "query": "What products does the company sell?",
+        "answer": "Reasoning: The query asks about the products the company sells. This information is available in the knowledge base.\nFinal Answer: The company sells electronics including laptops, smartphones, and accessories. The laptop series includes models A, B, and C. Smartphones come with a 1-year warranty and 24/7 customer support. Accessories include headphones, chargers, and protective cases.\n"
+    },
+    {
+        "query": "Tell me about the company's history.",
+        "answer": "Reasoning:\nThe query asks about the company's history, which is general information covered in the KB document. Therefore, I should answer using the KB.\n\nFinal Answer:\nFounded in 2010, our company started as a small electronics retailer. Over the years, we expanded nationwide and now have multiple branches.\n"
+    },
+    {
+        "query": "What is the shipping policy?",
+        "answer": "Reasoning: The query asks about the shipping policy, which is general information covered in the KB. I do not need to use the CSV tool.\nFinal Answer: We offer free standard shipping on all orders above $50.\nStandard delivery takes 3-5 business days.\nExpedited shipping is available for an additional fee and takes 1-2 business days.\nInternational shipping is also available; rates vary by country.\n\n\nThe price of charger (closest match) is 20.0."
+    },
+    {
+        "query": "How can I return a laptop?",
+        "answer": "Reasoning: The query asks about how to return a laptop, which is general information covered in the KB. The information is about the return policy.\nFinal Answer: Customers can return products within 30 days of purchase. Products must be in original packaging and condition. Refunds are processed within 5 business days after receiving the return. Electronics must be reset to factory settings before returning.\n"
+    },
+    {
+        "query": "What payment methods are accepted?",
+        "answer": "Reasoning: The query asks about payment methods, but the KB does not contain information about payment methods. Therefore, I cannot answer the query.\n\nFinal Answer: I am sorry, I cannot answer the query. The provided knowledge base does not include information about payment methods.\n"
+    },
+    {
+        "query": "Tell me the warranty details for smartphones.",
+        "answer": "Reasoning: The query asks for warranty details, which is available in the KB.\nFinal Answer: All laptops and smartphones come with a 1-year warranty. Accessories have a 6-month warranty. Warranty covers manufacturing defects but not accidental damage. Repairs under warranty are free of charge.\n"
+    },
+    {
+        "query": "What is the price of apple?",
+        "answer": "Reasoning:The query asks for the price of \"apple\". Since this is a price question, I should use the CSV tool to find the price.\n\nFinal Answer:```tool_code\nprint(get_price(item='apple'))\n```\n\nThe price of banana (closest match) is 0.8."
+    },
+    {
+        "query": "How much does laptop_a cost?",
+        "answer": "Reasoning:\nThe query asks about the price of an item (\"laptop_a\"), so I should use the CSV tool.\n\nFinal Answer:\n```tool_code\nprint(get_price(item=\"laptop_a\"))\n```\n\nThe price of apple (closest match) is 1.2."
+    },
+    {
+        "query": "How much is a smartphone_x?",
+        "answer": "Reasoning:\nThe query asks about the price of an item (smartphone_x), so I should use the CSV tool to look up the price.\n\nFinal Answer:\n```tool_code\nprint(get_price(item=\"smartphone_x\"))\n```\n\nThe price of smartphone_x (closest match) is 700.0."
+    },
+    {
+        "query": "What discounts are currently available?",
+        "answer": "Reasoning: The query asks about currently available discounts. This is information available in the KB document about seasonal promotions.\n\nFinal Answer: We run seasonal promotions during Black Friday, New Year, and Independence Day. Discounts range from 10% to 30% on selected products. Subscribe to our newsletter to receive early promotion alerts.\n"
+    }
+]

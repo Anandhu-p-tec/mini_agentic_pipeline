@@ -1,0 +1,4 @@
+Laptop Model A: 16GB RAM, 512GB SSD, Intel i7 Processor
+Laptop Model B: 8GB RAM, 256GB SSD, Intel i5 Processor
+Smartphone X: 128GB Storage, 6GB RAM, 12MP Camera
+Smartphone Y: 64GB Storage, 4GB RAM, 8MP Camera

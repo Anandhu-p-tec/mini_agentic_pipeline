@@ -1,0 +1,10 @@
+What products does the company sell?
+Tell me about the company's history.
+What is the shipping policy?
+How can I return a laptop?
+What payment methods are accepted?
+Tell me the warranty details for smartphones.
+What is the price of apple?
+How much does laptop_a cost?
+How much is a smartphone_x?
+What discounts are currently available?
