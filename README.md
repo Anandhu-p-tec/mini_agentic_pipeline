@@ -24,16 +24,15 @@ The system demonstrates **agentic behavior**, deciding whether to rely on the KB
 
 ```mermaid
 flowchart TD
-    A([🧑 User Query]) --> B([⚡ Controller])
-    B --> C([🔍 Retriever])
-    C -->|Semantic Search in KB Docs (FAISS)| D([🧠 Reasoner - Gemini])
+    A([User Query]) --> B([Controller])
+    B --> C([Retriever])
+    C -->|Semantic Search in KB Docs (FAISS)| D([Reasoner - Gemini])
     
-    D -->|Uses KB| E([📘 Final Answer from KB])
-    D -->|Invokes Tool| F([🛠️ Actor - CSV Tool])
+    D -->|Uses KB| E([Final Answer from KB])
+    D -->|Invokes Tool| F([Actor - CSV Tool])
     
-    F --> G([✅ Final Answer])
+    F --> G([Final Answer])
     E --> G
-
 ```
 ## 🔎 Components Explained
 
@@ -170,6 +169,9 @@ Ambiguous queries may require user clarification.
 
 Anandhu P
 AI/ML Engineer | Data Science Enthusiast
+
 Portfolio: https://github.com/Anandhu-p-tec
+
 Email: anandhupadmanabhank@gmail.com
+
 
